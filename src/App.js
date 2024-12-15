@@ -34,10 +34,12 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <header className='bg-gray-200 sticky top[0] z[20] w-full flex items-center justify-end border-gray-500 px-24 py-8'>
+        <header className='bg-gray-200 sticky top[0] z[20] w-full flex items-center justify-between border-gray-500 px-20 py-4'>
+            <img width="100" src="Pharmacy-banner.png" alt="logo" className='rounded-lg' />
+
             <div className='flex w-[300px] justify-between'>
-              <NavLink to='/'>Medication List</NavLink>
-              <NavLink to='/dashboard'>Pharmacist Dashboard</NavLink>
+              <NavLink to='/' className="hover:text-blue-700">Medication List</NavLink>
+              <NavLink to='/dashboard' className="hover:text-blue-700">Pharmacist Dashboard</NavLink>
             </div>
         </header>
                 

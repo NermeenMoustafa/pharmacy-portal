@@ -21,20 +21,20 @@ const MedicalList = ({ medications, onMedicalSearch, isMedicationLoading, error 
                         <img className="w-[200px] h-[200px] bg-none animate-spin" src="./spinner.svg" alt="Spinner" />
                     </div>
                 ) : (
-                    <table className="w-full bg-gray-50 rounded-lg">
-                    <thead className="bg-gray-100 h-[80px]">
+                    <table className="w-full bg-gray-200 rounded-lg">
+                    <thead className="bg-blue-800 h-[80px]">
                         <tr>
-                            <th className="p-5 w-[10%] text-gray-700 rounded-tl-lg">Medication ID</th>
-                            <th className="p-5 w-[30%] text-gray-700">Medication Name</th>
-                            <th className="p-5 w-[60%] text-gray-700 rounded-tr-lg">Medication Description</th>
+                            <th className="p-5 w-[10%] text-white rounded-tl-lg">Medication ID</th>
+                            <th className="p-5 w-[30%] text-white">Medication Name</th>
+                            <th className="p-5 w-[60%] text-white rounded-tr-lg">Medication Description</th>
                         </tr>
                     </thead>
                     <tbody>
                         {medications.map(({id, title, body}) => (
-                            <tr key={id} className="border-solid border-t-2 border-gray-100">
-                                <td className="p-5 text-gray-700">{id}</td>
-                                <td className="p-5 text-gray-700">{title}</td>
-                                <td className="p-5 text-gray-700">{body}</td>
+                            <tr key={id} className="border-solid border-t-2 border-gray-300">
+                                <td className="p-5">{id}</td>
+                                <td className="p-5">{title}</td>
+                                <td className="p-5">{body}</td>
                             </tr>
                         ))}
                     </tbody>
