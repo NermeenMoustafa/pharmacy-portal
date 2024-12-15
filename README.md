@@ -1,6 +1,6 @@
 ![PharmacyBanner](https://github.com/NermeenMoustafa/pharmacy-portal/blob/master/Pharmacy-banner.png)
 
-Open The Gates For Your Health
+<p align="center">Open The Gates For Your Health</p>
 
 ## Key Features
 
