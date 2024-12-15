@@ -1,10 +1,33 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Open The Gates For Your Health
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- Decribtive list of medications
+
+- Fast search
+
+- Medication visualization
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://r.search.yahoo.com/_ylt=Awrji_so0V5n5wEAQyNXNyoA;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1735476777/RO=10/RU=https%3a%2f%2fgit-scm.com%2f/RK=2/RS=uWmhymQiAL_hK8I7kjriG78ptIU-) and [Yarn](https://r.search.yahoo.com/_ylt=AwrEbdlE0V5n7gEA6g9XNyoA;_ylu=Y29sbwNiZjEEcG9zAzQEdnRpZAMEc2VjA3Ny/RV=2/RE=1735476805/RO=10/RU=https%3a%2f%2fyarnpkg.com%2f/RK=2/RS=SxM4gt_CjaS4oQePijDx5SwYI2g-) installed on your computer.
+
+From your command line:
+
+```bash
+# Clone this repository
+
+# Go into the repository
+cd pharmacy-portal
+
+# Install dependencies
+yarn
+
+# Run the app
+yarn start
+```
 
 ### `yarn start`
 
