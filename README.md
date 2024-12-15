@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+![PharmacyBanner](https://github.com/NermeenMoustafa/pharmacy-portal/blob/master/Pharmacy-banner.png)
 
 Open The Gates For Your Health
 
@@ -18,6 +18,7 @@ From your command line:
 
 ```bash
 # Clone this repository
+git clone https://github.com/NermeenMoustafa/pharmacy-portal.git
 
 # Go into the repository
 cd pharmacy-portal
